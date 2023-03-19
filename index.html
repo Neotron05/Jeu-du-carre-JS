@@ -1,0 +1,24 @@
+<head>
+  <title>Jeu du carré</title>
+  <meta charset="utf-8" />
+  <script src="index.js"> </script>
+</head>
+<body>
+  <form id="formulaire">
+    <div>
+      <label for="nombre">Nombre :</label>
+      <input type="number" id="nombre" name="user_name" />
+    </div>
+    <button type="button" onclick="xyz()">Calcul carré</button>
+    <div id="resultat">
+      <label for="result">Carré:</label>
+      <output name="result" id="square"></output>
+      <button type="button" onclick="down()">&lt</button>
+      <output name="index" id="index"></output>
+      <button type="button" onclick="up()">&gt</button>
+    </div>
+  </form>
+  <form>
+    <button type="submit">Recommencer</button>
+  </form>
+</body>
